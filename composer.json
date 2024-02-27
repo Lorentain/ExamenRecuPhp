@@ -1,0 +1,24 @@
+{
+    "name": "lorentain/examen-recu",
+    "description": "Examen Recu",
+    "autoload": {
+        "psr-4": {
+            "Lorentain\\ExamenRecu\\": "src/",
+            "controllers\\" : "src/controllers",
+            "models\\": "src/models",
+            "lib\\": "src/lib",
+            "utils\\": "src/utils",
+            "routes\\": "src/routes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lorenzo",
+            "email": "lorentain2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
